@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Added for responsiveness -->
   <title>Adel Adnan Alawi - Software Engineer</title>
   <style>
     body {
@@ -43,6 +44,7 @@
     }
 
     .container {
+      width: 90%;          /* Changed for responsiveness */
       max-width: 1000px;
       margin: 40px auto;
       padding: 30px;
@@ -87,6 +89,35 @@
     }
     p {
       line-height: 1.7;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+      
+      header {
+        padding: 30px 15px 20px;
+      }
+      
+      header h1 {
+        font-size: 1.8em;
+      }
+      
+      .container {
+        margin: 20px auto;
+        padding: 20px;
+      }
+      
+      h2 {
+        font-size: 1.4em;
+      }
+      
+      .tag {
+        padding: 5px 10px;
+        font-size: 0.8em;
+      }
     }
   </style>
 </head>
